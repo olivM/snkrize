@@ -38,6 +38,12 @@ end
 
 gem "jquery-rails"
 gem "bson_ext"
-gem "mongoid", ">= 2.0.0.beta.19"
-gem "omniauth", "~> 0.2.0"
+gem "mongoid"
+
+
 gem "rails_admin", :git => "git://github.com/sferik/rails_admin.git"
+gem "devise"
+
+gem "omniauth"
+gem "omniauth-twitter"
+
